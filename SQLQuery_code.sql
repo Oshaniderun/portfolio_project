@@ -47,10 +47,6 @@ Death_Percentage
 from [Covid DB]..CovidDeaths$
 where continent is not null
 
---join the 2 tables
---Select * from [Covid DB]..CovidVaccinations$ dea
---join [Covid DB]..CovidDeaths$ vac
---on dea.location=vac.location and dea.date=vac.date
 
 --total pouplations vs vaccinated
 select 
@@ -124,5 +120,6 @@ join [Covid DB]..CovidVaccinations$ vac
 where dea.continent is not null
 
 select * from PercentPopulationVaccinated
+
 
 
